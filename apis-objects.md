@@ -13,14 +13,13 @@
 
 - Object literals look similar to JSON objects except they are not!
 - JS objects follow `{ key: 'value' }` syntax
-- JSON data follows `{ "key": "value" }` syntax (keys are also in quotes)
-- Values can contain other objects, or arrays of objects of values
-- In JSON you always place your data inside a set of curly brackets, you can then have a comma separated list of objects
+- JSON data follows `{ "key": "value" }` syntax - (keys are also in quotes)
+- Values can contain other objects, or arrays of objects of values etc.
 
 ```
 data.json
 
-{
+[
   {
     "key": "value"
   },
@@ -30,10 +29,10 @@ data.json
   {
     "key": "value
   },
-}
+]
 ```
 
-- You cannot do this with an object literal in JS, presumably as this is technically an array - instead you would need to declare it as an array like this:
+- As an Object Literal it would be very similar:
 
 ```
 const myObj = [
